@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Authenticate with Azure using Managed Identity
-        run: az login --identity --username <6082979a-f525-4054-85c4-79c3e2282ab8>
+        run: az login --identity
 
       - name: Install Terraform
         uses: hashicorp/setup-terraform@v3
