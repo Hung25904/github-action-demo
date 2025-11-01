@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 
   use_msi         = true  # Enables Managed Identity Authentication
-  subscription_id = "YOUR_AZURE_SUBSCRIPTION_ID"
+  subscription_id = "6082979a-f525-4054-85c4-79c3e2282ab8"
 }
 
 resource "random_string" "suffix" {
